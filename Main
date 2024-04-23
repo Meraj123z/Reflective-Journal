@@ -1,0 +1,56 @@
+Sundae Winner
+Other than (maybe) in the lectures, we haven't done any programing. Even so, Python doesn't look that hard. Below is the Python code we saw last week from Sharpen_Pencil.PDF. Perform the tasks below. If you get stuckm don't worry, we will go thorough the answers.
+
+Task 0 - Run the program
+To make sure you understand what is happening, try running the cod a few times.
+
+To run the code, click insode the cell and either click the 'play' icon or hit shift+enter together
+
+Task 1 - Understanding input
+Which of the following will give you a cherry on top? What happens if when the program asks (prompts) you for a cherry on top you type (notice the different uppercase letters in the input):
+
+Yes
+yeS
+YES
+yes
+no
+NO
+Task 2 - editing a program
+Other than in the lectures, we haven't done any programing. Even so, Python doesn;t look that hard. Try to make the following following changes, if you get stuckm don;t worry, your lecturer will go thorough the answers:
+
+Change 'Stacie' to 'Stacy'
+Add your name to the list
+Task 3 - Workflow
+After each change, rerun the program to make sure the chages has bene applied. When you have the change has worked, save the notebook to GitHub.
+
+Here is our workflow
+
+Open/Create/import notebook into Colab
+Make sure notebook has meaningfuly name
+Design, edit make changest in Colab Tab
+Save regulary to GitHub (close GitHub window after save)
+Continue with edits in the colab tab.
+The Program itself
+We will talk more about the import statement later lecture, but briefly it is a way of letting you use code from elsewhere. We call this process import and the code form else where is bundled into a package or modules. So in the following, some programmer worked out how to get the comuter to generate random numbers, and put this into a module called random. Since we want to use use we need to import the module.
+
+[ ]
+import random
+
+customers =  ['Jimmy', 'Kim', 'John', 'Stacie']
+
+winner = random.choice(customers)
+
+flavor = 'vanilla'
+
+print('Congratulations ' + winner +
+ ' you have won an ice cream sundae!')
+
+Congratulations Stacie you have won an ice cream sundae!
+Would you like a cherry on top? no
+One vanilla sundae  for Stacie coming right up...
+Task 4 - Multiple winners
+No coding is required for this task, this is a thiking exercise where you can write your ideas down. We are not worried about how to do it specifically in Python. It is more important to think about what needs to be done. Google, StackOverflow, Books, etc., will help with the how. The hard part is working out the what (Problem-solving).
+
+How could the program to have two people win a sundae? What steps need to be added?
+
+[ ]
